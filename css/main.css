@@ -1,36 +1,97 @@
 /* Inserta tu CSS aqui */
-*{
- outline:1px solid  #d9534f;
+
+h1, h3 {
+    font-family: 'Prociono', serif;
+}
+a,p{
+   font-family: 'Domine', serif;
 }
 /*-----cabesera---*/
 .yo ul li{
    margin-right:30px ;
+    padding: 13px;
     display: inline-block;
+   
 }
 .yo a{
     text-decoration: none;
     color: black;
-    font-family: 'Prociono', serif;
     font-size: 20px;
-    
+     color: #E640FF;  
 }
 .yo{
     text-align: center;
 }
 /*--------------SECCION UNO-----*/
 .uno {
-    background-image: url(../images/maxresdefault.jpg);
+    background-image: url(../images/noche.jpg);
     background-repeat: no-repeat;
-    height: 600px; 
+    height: 500px; 
     text-align: center;
 }
 .uno img{
       position: relative;
-    
-   
+     top: 30px;
     width: 120px;  
 }
+.uno h1 {
+    position: relative;
+    top: 27px;
+    color: #FF4BF0;
+    font-size: 55px;
+}
+.uno p {
+    position: relative;
+    top: 27px;
+    color: #FF438F;
+    font-size: 28px;
+}
 
-.dos{
-    background-image: url(../images/tile1.png)
+/*-------segunda-- seccion---*/
+.yoni{
+    background-image: url(../images/tile1.png);
+    color: #9B51FF;
+}
+.dos img{
+    width: 80%;
+    height: 300px;
+}
+.yoni h1{
+    font-size: 33px;
+}
+.yoni p{
+    font-size: 25px;
+}
+/*------------seccion tres----*/
+.medio {
+    text-align: center;
+}
+.medio h1 , h3{
+  color: #FF32C6;  
+}
+.medio img{
+    width: 100%;
+    height: 250px;
+    border-radius: 150px;
+} 
+/*-----------------pie de pagina----*/
+footer{
+    background-image: url(../images/tile2.png);
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+footer ul li {
+    list-style: none;
+     margin: 20px;
+}
+
+footer img {
+   float: left;
+    position: relative;
+    left: 300px;
+    margin: 25px;
+}
+footer h1{
+    color: #FF32C6;
 }
